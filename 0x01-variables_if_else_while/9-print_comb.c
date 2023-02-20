@@ -11,10 +11,18 @@ int main(void)
 
 	while (a < 10)
 	{
+		if (a != 9)
+		{
 		putchar('0' + a);
 		putchar(',');
 		putchar(' ');
 		a++;
+		}
+		else
+		{
+		putchar('0' + a);
+		a++;
+		}
 	}
 	putchar('\n');
 	return (0);
