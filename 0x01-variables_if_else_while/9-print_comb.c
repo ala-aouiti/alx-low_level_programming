@@ -9,20 +9,15 @@ int main(void)
 {
 	int a = 0;
 
-	while (a < 10)
+	while (a <= 9)
 	{
+		putchar('0' + a);
 		if (a != 9)
 		{
-		putchar('0' + a);
-		putchar(',');
 		putchar(' ');
-		a++;
+		putchar(',');
 		}
-		else
-		{
-		putchar('0' + a);
 		a++;
-		}
 	}
 	putchar('\n');
 	return (0);
