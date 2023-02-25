@@ -8,12 +8,13 @@
  */
 int main(void)
 {
-	int i;
+	int i, l;
 	char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	i = 0;
+	l = strlen(s);
 
-	for (i = 0; i < strlen(s); i++)
+	for (i = 0; i < l; i++)
 	{
 		putchar(s[i]);
 	}
