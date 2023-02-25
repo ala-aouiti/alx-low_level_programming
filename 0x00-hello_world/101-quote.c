@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 /**
  * main - Entry point
  *
@@ -11,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	for (i = 0; i < 80; i++)
+	for (i = 0; i < strlen(s); i++)
 	{
 		putchar(s[i]);
 	}
