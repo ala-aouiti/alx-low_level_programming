@@ -1,13 +1,12 @@
 #include "main.h"
 
-/* betty style doc for function main goes there */
 /**
- *  * main - this is the main function
- *  *
- *  * Return: Value 0 always
+ * main - this is the main function
+ *
+ * Return: Value 0 always
  */
 
-int main (void)
+void print_alphabet(void)
 {
 	char al;
 
@@ -16,6 +15,5 @@ int main (void)
 		_putchar(al);
 	}
 	_putchar('\n');
-	return 0;
-
+	return;
 }
