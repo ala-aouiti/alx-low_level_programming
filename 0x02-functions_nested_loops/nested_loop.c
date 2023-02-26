@@ -8,24 +8,22 @@
  *
  *
  * */
+int fact(int n)
+{
+	int reval = 1;
+	
+	while (n != 1)
+	{
+		reval *= n--;
+	}
+	return reval;
+}
+
 int main(void)
 {
-int  i = 0, j;
+	int  val = fact(3);
+	printf("factorial of 3 is %d\n",val);
+	printf("factorial of 2 is equal to %d\n",fact(2));
 
-while (i < 5)
-{
-	j = 0;
-	while (j < 3)
-	{
-		printf("2 ");
-		j++;
-	}
-	printf("\n");
-	i++;
-
-}
-return (0);
-
-
-
+	return (0);
 }
