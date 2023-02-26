@@ -7,7 +7,7 @@
  *  * Return: Value 0 always
  */
 
-void print_alphabet(void)
+int main (void)
 {
 	char al;
 
