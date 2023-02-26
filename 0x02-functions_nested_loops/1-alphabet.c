@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - this is the main function
+ * Print_alphabet - this is print_alphabet function
  *
- * Return: Value 0 always
+ * Return: no return value
  */
-
 void print_alphabet(void)
 {
 	char al;
@@ -15,5 +14,4 @@ void print_alphabet(void)
 		_putchar(al);
 	}
 	_putchar('\n');
-	return;
 }
