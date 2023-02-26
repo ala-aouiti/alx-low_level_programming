@@ -16,6 +16,6 @@ int main (void)
 		_putchar(al);
 	}
 	_putchar('\n');
-	return;
+	return 0;
 
 }
