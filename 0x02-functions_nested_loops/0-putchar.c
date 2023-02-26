@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /* betty style doc for function main goes there */
@@ -9,7 +10,15 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char p[] = "_putchar";
+	int l = strlen(p);
+	int i;
+
+	for (i = 0; i < l; i++)
+	{
+		putchar(p[i]);
+	}
+	putchar('\n');
 	return (0);
 
 }
