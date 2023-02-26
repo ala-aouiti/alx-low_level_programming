@@ -1,19 +1,21 @@
-#include <stdio.h>
+#include "main.h"
+
 /* betty style doc for function main goes there */
 /**
  *  * main - this is the main function
  *  *
  *  * Return: Value 0 always
  */
-int main(void)
-{	
-	char c = 'a';
 
-	while(c <= 'z')
+void print_alphabet(void)
+{
+	char al;
+
+	for (al = 'a'; al <= 'z'; al++)
 	{
-		printf("c\n");
-		c++;
+		_putchar(al);
 	}
-	return (0);
+	_putchar('\n');
+	return;
 
 }
