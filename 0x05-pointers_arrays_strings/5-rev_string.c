@@ -14,6 +14,11 @@ void rev_string(char *s)
 
 	for (i = strlen(s); i >= 0; i--)
 	{
-		_putchar(s[i]);
+		int j;
+
+		for (j = 0; j <= strlen(s); j++)
+		{
+			s[j] = s[i];
+		}
 	}
 }
